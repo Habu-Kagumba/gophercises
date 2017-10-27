@@ -1,0 +1,12 @@
+- path: /dotfiles
+  url: https://github.com/habu-kagumba/dotfiles
+- path: /setup
+  url: https://github.com/habu-kagumba/setup
+- path: /rapid_runty
+  url: https://github.com/habu-kagumba/rapid_runty
+- path: /svg
+  url: https://github.com/habu-kagumba/svg
+- path: /port
+  url: https://github.com/habu-kagumba/port
+- path: /bawa
+  url: https://github.com/habu-kagumba/bawa
