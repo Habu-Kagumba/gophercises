@@ -52,7 +52,7 @@ func main() {
 		fmt.Println("Starting the server on :8080")
 		log.Fatal(http.ListenAndServe(":8080", yamlHandler))
 	case "db":
-		db, err := bolt.Open("redirect.db", 0600, nil)
+		db, err := bolt.Open("./redirect_rules/redirect.db", 0600, nil)
 		if err != nil {
 			log.Fatal(err)
 		}
