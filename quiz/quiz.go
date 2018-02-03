@@ -21,7 +21,7 @@ var (
 )
 
 func init() {
-	flag.StringVar(&flagFilePath, "file", "questions.csv", "path/to/file.csv")
+	flag.StringVar(&flagFilePath, "file", "problems.csv", "path/to/file.csv")
 	flag.IntVar(&flagTimeLimit, "limit", 30, "Quiz time limit")
 	flag.Parse()
 }
